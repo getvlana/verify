@@ -1,0 +1,12 @@
+{
+  "name": "vlana-verify",
+  "version": "0.1.0",
+  "description": "Check Vlana from the outside: served code = public code, payout rounds add up and are on Solana, your connection goes through Vlana.",
+  "type": "module",
+  "bin": { "vlana-verify": "verify.mjs" },
+  "files": ["verify.mjs"],
+  "engines": { "node": ">=18" },
+  "license": "AGPL-3.0-only",
+  "repository": "github:getvlana/verify",
+  "homepage": "https://github.com/getvlana/verify"
+}
